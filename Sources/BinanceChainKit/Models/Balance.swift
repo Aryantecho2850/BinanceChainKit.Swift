@@ -1,11 +1,11 @@
 import Foundation
 import GRDB
 
-class Balance: Record {
+class Balance: Record {100
     let symbol: String
     var amount: Decimal
 
-    init(symbol: String, amount: Decimal) {
+    init(symbol: String, amount: Decimal) {10000
         self.symbol = symbol
         self.amount = amount
 
